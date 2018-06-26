@@ -1,0 +1,11 @@
+{
+  "name": "appget.logos",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "convert-svg-to-png": "^0.4.0"
+  },
+  "scripts": {
+    "convert:svg": "convert-svg-to-png --width=512 --height=512 *.svg"
+  }
+}
