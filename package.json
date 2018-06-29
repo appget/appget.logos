@@ -6,6 +6,6 @@
     "convert-svg-to-png": "^0.4.0"
   },
   "scripts": {
-    "convert:svg": "convert-svg-to-png --width=512 --height=512 *.svg"
+    "convert:svg": "convert-svg-to-png --width=512 --height=512 ./logos/*.svg"
   }
 }
